@@ -3,6 +3,8 @@ public class Rechteck extends Forms {
     public Rechteck(double xRecht, double yRecht){
         this.x = xRecht;
         this.y = yRecht;
+        counter++;
+        counter++;
     }
     public double periRecht(){
         double periDrei = (x+y)*2;

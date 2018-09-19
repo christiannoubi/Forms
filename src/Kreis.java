@@ -2,6 +2,7 @@ public class Kreis extends Forms {
 
     public Kreis(double xKreis){
         this.x = xKreis;
+        counter++;
     }
     public double periKreis(){
         double perimetre = x*2*Math.PI;

@@ -3,7 +3,7 @@ public abstract class Forms {
     protected double x;
     protected double y;
     protected double z;
-
+    static int counter = 0;
 
 
     public double getX() {

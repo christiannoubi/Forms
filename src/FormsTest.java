@@ -8,5 +8,8 @@ public class FormsTest {
        System.out.println(rect.toString());
        System.out.println(drei.toString());
        System.out.println(kreis.toString());
+        System.out.println("Fin du programme");
+        System.out.println("CounterRechteck: " +Forms.counter+" CounterKreis: "+Forms.counter+" CounterDreieck: "+Forms.counter);
+
     }
 }
